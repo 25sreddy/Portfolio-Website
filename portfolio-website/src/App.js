@@ -76,8 +76,8 @@ function App() {
                 Hi, I'm Sahil Reddy, a 9th Grade Student with a passion for
                 Computer Science. Outside of coding, some of my hobbies are
                 soccer, volleyball, and hanging out with friends. If you want to
-                have a chat please shoot me an email at{" "}
-                <span>sahilreddy092007@gmail.com!</span>
+                have a chat please send me an email in the form submission down
+                below!
               </p>
             </div>
           </div>
