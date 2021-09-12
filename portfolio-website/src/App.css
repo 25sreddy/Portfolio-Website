@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kaisei+Tokumin:wght@500&family=Mukta:wght@200&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+#img {
+  /* #212529 */
+  margin-left: -66px;
+  margin-top: -85px;
+  background-color: aliceblue;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 50px;
+  transform: scale(0.6);
+}
+.navbar-brand {
+  margin-left: 50px;
+  width: 70px; /* width of container */
+  height: 45px; /* height of container */
+  overflow: hidden;
+}
+.nav-link {
+  margin-left: 50px;
+}
+nav {
+  background: rgb(8, 8, 8);
+}
+.frontend,
+.backend {
+  display: flex;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: aliceblue;
+  width: 35%;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 100px;
+}
+.mepage {
+  margin-top: 125px;
+}
+#me {
+  font-size: 24px;
+}
+.bigtext {
+  text-align: center;
+}
+#desc {
+  font-size: 22px;
+}
+span {
+  font-weight: 1200;
+}
+section {
+  margin-top: -17px;
+  margin-bottom: 100px;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.App {
+  position: relative;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+section:nth-child(1) {
+  height: 600px;
+}
+section:nth-child(2) {
+  height: 800px;
+}
+section:nth-child(3) {
+  height: 800px;
+}
+section:nth-child(4) {
+  height: 700px;
+}
+section:nth-child(2n) {
+  background-color: whitesmoke;
+}
+
+.skill {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.smalltext {
+  margin-top: 100px;
+}
+.smalltext,
+.Tech {
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+#projhead {
+  text-align: center;
+  margin: 60px auto;
+}
+section:nth-child(4) {
+  padding: 12px;
+}
+section:nth-child(3) * {
+  margin-bottom: 25px;
+}
+.invis {
+  opacity: 0;
+}
+.pic {
+  width: 20%;
+  height: 20%;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.mepage {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-family: "Comfortaa", cursive;
+}
+h5 {
+  font-family: "Mukta", sans-serif;
+}
+.nav-custom {
+  background-color: aliceblue !important;
+}
+h1:after {
+  content: " ";
+  display: block;
+  border: 2px solid #d0d0d0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+h2 {
+  font-size: 28px;
+  color: #6e7aff;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.contactheader {
+  text-align: center;
+  margin: 100px auto;
+}
+
+@media (max-width: 991px) {
+  section:nth-child(1) {
+    height: 1200px;
+  }
+  section:nth-child(2) {
+    height: 800px;
+  }
+  section:nth-child(3) {
+    height: 2000px;
+  }
+  section:nth-child(4) {
+    height: 900px;
+  }
+  .mepage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme {
+    width: 90%;
+    height: 600px;
+  }
+  .projects {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .pic {
+    border-radius: 0;
+    border: 0;
+    height: 450px;
+    width: 75%;
+    margin-bottom: 50px;
+  }
+}
